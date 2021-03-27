@@ -54,7 +54,7 @@
         <p class=" w3l-register-p">Don't have an account?<a href="signup.php" class="register"> Sign up</a></p>
     </div>
     <footer>
-        <p class="copyright-agileinfo"> &copy; 2021 college Project. All Rights Reserved | Design by <a href="https://www.linkedin.com/in/Mohit Bhatt/"><span style="color:yellow">Depash-Devendra-Suraj-Mohit</span></a></p>
+        <p class="copyright-agileinfo,M"> &copy; 2021 college Project. All Rights Reserved | Design by <a href="https://www.linkedin.com/in/Mohit Bhatt/"><span style="color:yellow">Depash-Devendra-Suraj-Mohit</span></a></p>
     </footer>
 
 </body>
