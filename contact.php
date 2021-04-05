@@ -52,7 +52,120 @@
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				
 				<h1><a class="navbar-brand" href="home.php">AGI <span class="display"></span></a></h1>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+33
+        <!-- css files -->
+34
+        <link rel="stylesheet" href="web_home/css_home/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+35
+        <link rel="stylesheet" href="web_home/css_home/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+36
+        <link rel="stylesheet" href="web_home/css_home/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+37
+        <!-- //css files -->
+38
+        
+39
+        <!-- web-fonts -->
+40
+        <link href="//fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+41
+        <!-- //web-fonts -->
+42
+        
+43
+</head>
+44
+​
+45
+<body>
+46
+​
+47
+<!-- banner -->
+48
+<div class="inner-page-banner" id="home">          
+49
+        <!--Header-->
+50
+        <header>
+51
+                <div class="container agile-banner_nav">
+52
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+53
+                                
+54
+                                <h1><a class="navbar-brand" href="home.php">AGI <span class="display"></span></a></h1>
+55
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+56
+                                <span class="navbar-toggler-icon"></span>
+57
+                                </button>
+58
+​
+59
+                                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+60
+                                        <ul class="navbar-nav ml-auto">
+61
+                                                <li class="nav-item">
+62
+                                                        <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+63
+                                                </li>
+64
+                                                
+65
+                                                <li class="nav-item">
+66
+                                                        <a class="nav-link" href="services.php">Hostels</a>
+67
+                                                </li>
+68
+                                                <li class="nav-item active">
+69
+                                                        <a class="nav-link" href="contact.php">Contact</a>
+70
+                                                </li>
+71
+                                                <li class="nav-item">
+72
+                                                <a class="nav-link" href="message_user.php">Message Received</a>
+73
+                                        </li>
+74
+                                                <li class="dropdown nav-item">
+75
+                                                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><?php echo $_SESSION['roll']; ?>
+76
+                                                        <b class="caret"></b>
+77
+                                                </a>
+78
+                                                <ul class="dropdown-menu agile_short_dropdown">
+79
+                                                        <li>
+80
+                                                                <a href="profile.php">My Profile</a>
+81
+                                                        </li>
+82
+                                                        <li>
+83
+                                                                <a href="includes/logout.inc.php">Logout</a>
+84
+                                                        </li>
+85
+                                                </ul>
+86
+                                        </li>
+87
+                                        </ul>
+88
+                                </div>
+ aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -135,7 +248,7 @@
 <footer class="py-5">
 	<div class="container py-md-5">
 		<div class="footer-logo mb-5 text-center">
-			<a class="navbar-brand" href="http://www.AGI.ac.in/" target="_blank">NIT <span class="display"> CALICUT</span></a>
+			<a class="navbar-brand" href="http://www.AGI.ac.in/" target="_blank">AGI <span class="display"> LAMACHUR</span></a>
 		</div>
 		<div class="footer-grid">
 			
